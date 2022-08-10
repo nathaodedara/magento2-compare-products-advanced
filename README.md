@@ -1,4 +1,4 @@
-# Mage2 Module Natha CompareAdvanced
+# Magento 2 Extension Natha CompareAdvanced
 
     ``natha/module-compareadvanced``
 
@@ -11,6 +11,9 @@
 
 ## Main Functionalities
 Enhancement for Comparison features for Magento 2
+
+- Adds functionality to limit the number of products that a user can add to the comparison list
+- Allows enabling/disabling comparison funtionality/links throughout the store in admin panel
 
 ## Installation
 \* = in production please use the `--keep-generated` option
