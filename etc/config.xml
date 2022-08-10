@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Natha Odedara, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <catalog>
+            <recently_products>
+                <natha_limit_compare_product>0</natha_limit_compare_product>
+                <natha_limit_compare_err_msg>You can add the compared products under %i% items.</natha_limit_compare_err_msg>
+                <natha_disable_compare_option>0</natha_disable_compare_option>
+            </recently_products>
+        </catalog>
+    </default>
+</config>

@@ -1,0 +1,22 @@
+{
+    "name": "natha/module-compareadvanced",
+    "description": "Enhancement for Comparison features for Magento 2",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Natha Odedara",
+            "email": "nathaodedara24@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Natha\\CompareAdvanced\\": ""
+        }
+    }
+}

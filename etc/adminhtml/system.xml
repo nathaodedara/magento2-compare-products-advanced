@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Natha Odedara. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="catalog">
+            <group id="recently_products">
+                <field id="natha_limit_compare_product" translate="label" type="text" sortOrder="50" showInDefault="1" canRestore="1">
+                    <label>Maximum Limit for Compare Products</label>
+                    <validate>validate-number validate-greater-than-zero</validate>
+                    <comment>Add 0 for infinite (Native behaviour)</comment>
+                </field>
+                <field id="natha_limit_compare_err_msg" translate="label" type="text" sortOrder="55" showInDefault="1" canRestore="1">
+                    <label>Error Message for Over Limit Items</label>
+                    <comment>Default: You can add the compared products under %i% items. ( use %i% to show total allowed items count )</comment>
+                </field>
+                <field id="natha_disable_compare_option" type="select" sortOrder="60" showInDefault="1" canRestore="1" translate="label">
+                    <label>Disable Compare functionality</label>
+                    <comment>Disable Comparison functionality throughout the store(s)</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
