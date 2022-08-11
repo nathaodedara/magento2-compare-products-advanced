@@ -1,14 +1,5 @@
 # Magento 2 Extension Natha CompareAdvanced
 
-    ``natha/module-compareadvanced``
-
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
-
-
 ## Main Functionalities
 Enhancement for Comparison features for Magento 2
 
